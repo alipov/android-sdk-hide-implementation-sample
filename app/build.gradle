@@ -20,6 +20,6 @@ android {
 }
 
 dependencies {
-    compile files('libs/sdk-api.jar')
-    apk files('libs/sdk-impl.jar')
+    provided files('libs/sdk-api.jar')
+    apk files('libs/sdk-runtime.jar')
 }
